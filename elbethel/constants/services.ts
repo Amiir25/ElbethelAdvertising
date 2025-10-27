@@ -1,9 +1,9 @@
-import TShirt from '../public/services/t-shirt.jpg';
-import weddingCards from '../public/services/wedding-cards.jpg';
-import banners from '../public/services/banner.jpg';
-import stickers from '../public/services/stickers.jpg';
-import businessCards from '../public/services/business-card.jpg';
-import branding from '../public/services/branding.jpeg';
+import TShirt from '../public/services/t-shirt.webp';
+import weddingCards from '../public/services/wedding-cards.webp';
+import banners from '../public/services/banner.webp';
+import stickers from '../public/services/stickers.webp';
+import businessCards from '../public/services/business-card.webp';
+import branding from '../public/services/branding.webp';
 
 export const services = [
     {
