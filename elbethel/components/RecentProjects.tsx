@@ -16,8 +16,11 @@ const RecentProjects = () => {
           recentProjects.map((project, i) => (
             <div key={i}
             className='relative mt-10 w-120 h-120 group overflow-hidden rounded-xl' >
+              
               <Image src={ project.image } alt='Project Image' width={0} height={0}
-              className='w-80 md:w-full h-full transition-all duration-700 ease-in-out group-hover:scale-[1.2]'/>
+              className='w-84 md:w-full h-full transition-all duration-700 ease-in-out
+              group-hover:scale-[1.2]'/>
+              
               <div className='absolute bottom-8 left-4 text-amber-300 
               group-hover:text-amber-800 z-10 transition-all duration-500'>
                 <h1 className='text-xl group-hover:text-2xl font-semibold transition-all duration-500'>

@@ -11,7 +11,7 @@ const Testimonials = () => {
         underlineTitle="Say?"
         subtitle="Don't just take our word for it — hear from our satisfied customers" />
 
-      <div className='mt-10 flex flex-col md:flex-row flex-wrap justify-center gap-x-20 gap-y-10'>
+      <div className='mt-10 flex flex-col md:flex-row flex-wrap items-center justify-center gap-x-20 gap-y-10'>
         {
           testimonials.map((testimony, i) => (
             <div key={i} 

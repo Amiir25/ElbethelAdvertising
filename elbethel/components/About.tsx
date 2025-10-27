@@ -9,7 +9,7 @@ const About = () => {
         normalTitle='Our'
         underlineTitle='Story' />
 
-      <p className='mt-10 text-sm md:text-lg tracking-wide md:w-180 mx-auto'>
+      <p className='mt-10 text-sm md:text-lg tracking-wide md:w-180 mx-auto text-justify'>
         Elbethel Advertising is a leading advertising and printing company based in Addis Ababa, Ethiopia, specializing in neon lights, light boxes, and custom signage
         solutions that bring brands to life. We also supply a wide range of advertising and printing materials and equipment, including acrylic bending machines, power
         supplies, neon tubes, CNC routers, and laser cutting machines.

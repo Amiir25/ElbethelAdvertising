@@ -41,7 +41,7 @@ const Contact = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className='h-80 md:h-full rounded-2xl'>
+            className='h-80 md:h-full rounded-2xl w-full'>
           </iframe>
         </div>
       </div>
