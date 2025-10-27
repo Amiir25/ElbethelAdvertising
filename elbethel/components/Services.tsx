@@ -13,7 +13,7 @@ const Services = () => {
         subtitle='From custom prints to complete branding solutions, we deliver quality that speaks for your brand.' />
 
       {/*  */}
-      <div className='md:flex flex-wrap items-center justify-center gap-10'>
+      <div className='flex flex-col md:flex-row flex-wrap items-center justify-center gap-10'>
         {
           services.map((service, i) => (
             <div key={i} className='mt-10 w-80 md:w-120'>
