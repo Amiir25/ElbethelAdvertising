@@ -1,7 +1,7 @@
-import weddingCard from '../public/recent/wedding-card.jpg';
-import TShirt from '../public/recent/t-shirt.jpg';
-import banner from '../public/recent/banner.jpg';
-import businessCard from '../public/recent/business-card.jpg';
+import weddingCard from '../public/recent/wedding-card.webp';
+import TShirt from '../public/recent/t-shirt.webp';
+import banner from '../public/recent/banner.webp';
+import businessCard from '../public/recent/business-card.webp';
 
 export const recentProjects = [
     {
