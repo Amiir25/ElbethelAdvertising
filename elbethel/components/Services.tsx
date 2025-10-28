@@ -5,7 +5,7 @@ import Title from './Title'
 
 const Services = () => {
   return (
-    <section className='mt-20'>
+    <section className='mt-40'>
       
       <Title 
         normalTitle='Our'
@@ -17,10 +17,8 @@ const Services = () => {
         {
           services.map((service, i) => (
             <div key={i} className='mt-10 w-80 md:w-120'>
-              <div className='w-full h-60'>
-                <Image src={service.image} alt={service.title} className='' />
-              </div>
-              <div className='-mt-20'>
+              <Image src={service.image} alt={service.title} className='rounded-xl' />
+              <div className='mt-2'>
                 <h1 className='text-xl font-bold'>{ service.title }</h1>
                 <p className='text-sm'>{ service.description }</p>
               </div>

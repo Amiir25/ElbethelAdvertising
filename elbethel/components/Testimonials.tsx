@@ -15,7 +15,7 @@ const Testimonials = () => {
         {
           testimonials.map((testimony, i) => (
             <div key={i} 
-            className="w-80 md:w-100 flex flex-col px-4 py-10 border-t-5 border-b-5 border-amber-300 rounded-xl" >
+            className="w-80 md:w-100 flex flex-col px-4 py-10 border-primary rounded-xl" >
               <p className="font-serif tracking-wide">{ testimony.text }</p>
               <div className="mt-8 text-sm pt-4 border-t border-gray-200">
                 <h2 className="font-semibold">{ testimony.name }</h2>

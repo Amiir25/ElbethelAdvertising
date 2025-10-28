@@ -21,7 +21,7 @@ const Contact = () => {
             contacts.map((contact, i) => (
               <div key={i} className='flex items-center gap-2'>
                 <FontAwesomeIcon icon={ contact.icon }
-                className='text-2xl md:text-3xl text-amber-700 bg-amber-300/70 px-2 py-4 rounded-xl my-2' />
+                className='text-2xl md:text-3xl text-white bg-primary px-2 py-4 rounded-xl my-2' />
                 <div>
                   <h2 className='md:text-xl font-bold'>{ contact.title }</h2>
                   <p className='md:text-lg text-gray-600'>{ contact.description }</p>

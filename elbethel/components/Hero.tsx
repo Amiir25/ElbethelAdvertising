@@ -5,7 +5,7 @@ const Hero = () => {
           Build Your Brand With Quality Printing
         </h1>
         <p className='mt-4 md:mt-8 text-lg md:text-2xl lg:text-4xl px-8 font-light'>We design and print everything, fast and affordable.</p>
-        <button className='mt-10 px-10 py-4 text-amber-900 text-lg font-semibold bg-amber-300 rounded-xl tracking-wider
+        <button className='mt-10 px-10 py-4 text-white text-lg font-semibold bg-primary rounded-xl tracking-wider
         hover:opacity-80 active:opacity-100 cursor-pointer '>
           View Our Services
         </button>
