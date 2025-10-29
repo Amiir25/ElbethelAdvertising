@@ -4,13 +4,13 @@ import { navLinks } from "@/constants/navLinks"
 import Image from "next/image"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"
 import { faClose } from "@fortawesome/free-solid-svg-icons/faClose"
 import { useState } from "react"
 
 const Navbar = () => {
 
-  const [showNavLinks, setShowNavLinks] = useState(0);
+  const [showNavLinks, setShowNavLinks] = useState(false);
 
   return (
     <nav className="relative px-6 md:x-12 lg:px-24 xl:px-32 flex items-center justify-between">
@@ -34,32 +34,30 @@ const Navbar = () => {
 
       {/* Humberger menu */}
       <FontAwesomeIcon 
-      onClick={ () => setShowNavLinks(1) }
+      onClick={ () => setShowNavLinks(!showNavLinks) }
       icon={ faBars }
-      className="md:hidden! cursor-pointer" />
-
+      className="md:hidden cursor-pointer" />
+      
       {/* Nav links for small screen */}
-      <ul className={`hidden absolute top-0 -left-6 border w-screen h-screen bg-white z-10
-       ${ showNavLinks === 1 && 'block' } `}>
+      <div className={`absolute top-0 -right-200 bg-white w-screen h-screen z-10
+       ${ showNavLinks && 'right-0' } transition-all duration-300`}>
+        
+        <FontAwesomeIcon icon={ faXmark }
+        onClick={ () => setShowNavLinks(false) }
+        className="float-right p-4 text-2xl" />
 
-        <FontAwesomeIcon
-        onClick={ () => setShowNavLinks(0) }
-        icon={ faClose }
-        className="float-right p-4 text-xl font-bold" />
-
-        <div className="w-full h-full flex flex-col items-center gap-4 mt-30">
+        {/* Nav links */}
+        <ul className="w-fit mt-50 mx-auto">
           {
             navLinks.map((link) => (
               <Link href={ link.href } key={ link.key }
-              className="block mx-2 text-xl
-              hover:text-amber-300 transition-all duration-200" >
+              className="block text-2xl my-2" >
                 { link.label }
               </Link>
             ))
           }
-          <p>s { String(showNavLinks) }</p>
-        </div>
-      </ul>
+        </ul>
+      </div>
     </nav>
   )
 }
