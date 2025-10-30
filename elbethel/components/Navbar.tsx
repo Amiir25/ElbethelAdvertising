@@ -1,11 +1,9 @@
 "use client";
 
 import { navLinks } from "@/constants/navLinks"
-import Image from "next/image"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"
-import { faClose } from "@fortawesome/free-solid-svg-icons/faClose"
 import { useState } from "react"
 
 const Navbar = () => {
@@ -16,8 +14,8 @@ const Navbar = () => {
     <nav className="relative px-6 md:x-12 lg:px-24 xl:px-32 py-2 md:py-4 flex items-center justify-between">
       {/* Logo */}
       <Link href='/'>
-        <Image src='/logo.jpg' alt="Elbethel Logo Image"
-        width={80} height={0} className="" />
+        <img src="/logo.webp" alt="Elbethel Advertising Logo"
+        className="w-24 md:w-32 lg:w-40" />
       </Link>
 
       {/* Nav links */}
@@ -25,7 +23,8 @@ const Navbar = () => {
         {
           navLinks.map((link) => (
             <Link href={ link.href } key={ link.key }
-            className="mx-2 hover:text-amber-300 transition-all duration-200" >
+            className="text-lg font-semibold mx-2 hover:text-[#ff4000]
+            transition-all duration-200" >
               { link.label }
             </Link>
           ))
@@ -40,7 +39,7 @@ const Navbar = () => {
       {/* Nav links for small screen */}
       <div className={`absolute top-0 -left-1000 bg-white w-screen h-screen z-10
        ${ showNavLinks && 'left-0' }
-       transition-all duration-300`}>
+       transition-all duration-300 ease-in-out`}>
         
         <FontAwesomeIcon icon={ faXmark }
         onClick={ () => setShowNavLinks(false) }
