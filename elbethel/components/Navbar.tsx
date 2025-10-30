@@ -13,11 +13,11 @@ const Navbar = () => {
   const [showNavLinks, setShowNavLinks] = useState(false);
 
   return (
-    <nav className="relative px-6 md:x-12 lg:px-24 xl:px-32 flex items-center justify-between">
+    <nav className="relative px-6 md:x-12 lg:px-24 xl:px-32 py-2 md:py-4 flex items-center justify-between">
       {/* Logo */}
       <Link href='/'>
-        <Image src='/logo.webp' alt="Elbethel Logo Image"
-        width={60} height={30} className="" />
+        <Image src='/logo.jpg' alt="Elbethel Logo Image"
+        width={80} height={0} className="" />
       </Link>
 
       {/* Nav links */}
@@ -33,14 +33,14 @@ const Navbar = () => {
       </ul>
 
       {/* Humberger menu */}
-      <FontAwesomeIcon 
-      onClick={ () => setShowNavLinks(!showNavLinks) }
-      icon={ faBars }
-      className="md:hidden cursor-pointer" />
+      <FontAwesomeIcon icon={ faBars }
+      onClick={ () => setShowNavLinks(true) }
+      className="block md:hidden! text-xl cursor-pointer z-10" />
       
       {/* Nav links for small screen */}
-      <div className={`absolute top-0 -right-200 bg-white w-screen h-screen z-10
-       ${ showNavLinks && 'right-0' } transition-all duration-300`}>
+      <div className={`absolute top-0 -left-1000 bg-white w-screen h-screen z-10
+       ${ showNavLinks && 'left-0' }
+       transition-all duration-300`}>
         
         <FontAwesomeIcon icon={ faXmark }
         onClick={ () => setShowNavLinks(false) }
