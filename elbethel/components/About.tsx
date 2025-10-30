@@ -41,11 +41,11 @@ const About = () => {
         }
       </div>
 
-      {/* See more button */}
+      {/* Read more button */}
       <button
       onClick={ () => setExpand(!expand) }
-      className='w-fit mx-auto mt-6 text-lg md:text-xl font-extrabold tracking-wide cursor-pointer
-      px-4 py-2 rounded flex items-center justify-center gap-2 border border-secondary'>
+      className='w-fit mx-auto mt-4 md:text-lg font-semibold tracking-wide cursor-pointer
+      px-2 py-1 rounded flex items-center justify-center gap-2 border border-secondary'>
         { expand ? 'Read Less' : 'Read More' }
         <FontAwesomeIcon icon={ expand ? faArrowUp : faArrowDown } 
         className='transition-all duration-500' />
