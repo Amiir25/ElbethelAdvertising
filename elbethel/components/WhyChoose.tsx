@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const WhyChoose = () => {
   return (
-    <section className='mt-20'>
+    <section className='mt-40'>
 
       <Title
         normalTitle='Why Choose '
@@ -19,7 +19,7 @@ const WhyChoose = () => {
               hover:shadow-2xl transition-all duration-300'>
                 {/* Icon */}
                 <div className='w-20 h-20 md:w-30 md:h-30 rounded-full mb-4
-                bg-gradient-to-tl from-white via-orange-700 to-orange-700
+                bg-gradient-to-tl from-white via-[#ff4000] to-[#ff4000]
                 flex items-center justify-center mx-auto'>
                   <FontAwesomeIcon icon={ item.icon }
                   className='text-4xl md:text-5xl lg:text-6xl text-white' />
