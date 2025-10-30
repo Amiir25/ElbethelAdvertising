@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Portfolio from "@/components/RecentProjects";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
+import Testimonials2 from "@/components/Testimonials2";
 import WhyChoose from "@/components/WhyChoose";
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
       <Hero/>
       <About/>
       <Services/>
-      <Portfolio/>
+      {/* <Testimonials2/> */}
+      {/* <Portfolio/> */}
       <WhyChoose/>
       <Testimonials/>
       <Contact/>
