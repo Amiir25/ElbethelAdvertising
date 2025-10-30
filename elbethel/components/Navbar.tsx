@@ -43,7 +43,7 @@ const Navbar = () => {
         
         <FontAwesomeIcon icon={ faXmark }
         onClick={ () => setShowNavLinks(false) }
-        className="float-right p-4 text-2xl" />
+        className="float-right p-8 text-2xl" />
 
         {/* Nav links */}
         <ul className="w-fit mt-50 mx-auto">
