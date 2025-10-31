@@ -10,43 +10,51 @@ import vehicleAdvert from '../public/service-images/vehicle-advert.webp';
 
 export const services = [
     {
+        id: 1,
         image: signage,
         title: 'LED Signage & Lighting',
         description: 'Design and installation of LED lighting letters and neon-style displays that bring your brand to life.',
     },
     {
+        id: 3,
         image: lightBox,
         title: 'Light Boxes',
         description: 'Custom light boxes in various shapes and sizes for shop fronts, offices, and events.',
     },
     {
+        id: 4,
         image: indoorAdvert,
         title: 'Indoor & Outdoor Advertising',
         description: 'Professional branding for walls and storefronts — built to keep your message clear.',
     },
     {
+        id: 5,
         image: banner,
         title: 'Large Format Digital Printing',
         description: 'High-resolution banners, posters, and wall graphics using premium materials and vibrant inks.',
     },
     {
+        id: 6,
         image: vehicleAdvert,
         title: 'Vehicle Branding',
-        description: 'Transform company cars, vans, and buses into mobile advertisements with long-lasting vehicle wraps and decals.',
+        description: 'Transform company cars into mobile advertisements with long-lasting vehicle wraps and decals.',
     },
     {
+        id: 7,
         image: interiorDesign,
         title: 'Interior Signs & Wall Branding',
-        description: 'Create stunning branded environments with interior wall graphics, 3D logo signs, and decorative installations.',
+        description: 'Create stunning branded environments with interior wall graphics and decorative installations.',
     },
     {
+        id: 8,
         image: TShirt,
         title: 'Promotional Printing',
         description: 'Custom printing on T-shirts, pens, medals, mugs, and key holders for marketing campaigns or events.',
     },
     {
+        id: 9,
         image: CNC,
-        title: 'Printing & Advertising Materials Supply',
-        description: 'Reliable supply of acrylic sheets, power supplies, neon tubes, CNC routers, laser cutting machines, and bending tools for signage professionals.',
+        title: 'Printing Materials Supply',
+        description: 'Reliable supply of printing and advertising materials for signage professionals.',
     },
 ];
