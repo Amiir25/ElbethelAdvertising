@@ -29,32 +29,3 @@
 .border-secondary {
     border: 1px solid var(--color-secondary);
 }
-
-/* Auto scroll */
-@keyframes scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-.auto-scroll {
-  animation: scroll 10s linear infinite;
-}
-
-/* Horizontal sliding */
-.slide-wrapper::-webkit-scrollbar {
-    display: none;
-}
-
-.slider {
-    padding-right: 3em;
-    animation: slide 30s infinite linear;
-}
-
-.sliding-item {
-    flex: 0 0 5em;
-}
-
-@keyframes slide {
-    from { translate: 0; }
-    to { translate: -100%; }
-}
