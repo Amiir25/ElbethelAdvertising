@@ -1,6 +1,6 @@
 import { serviceDetail } from "./assets/assets";
 import HandleServices from "./HandleServices";
-import bgServices from './assets/bg-services.jpg';
+import bgServices from './assets/bg-services.webp';
 import CallToAction from "@/components/CallToAction";
 
 const Services = () => {
