@@ -1,4 +1,4 @@
-import elbethelAdvert from '../public/elbethel-advert.jpg'
+import elbethelAdvert from '../public/elbethel-advert.webp';
 
 const Hero = () => {
   return (
