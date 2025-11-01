@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar/>
-        <main className="relative overflow-hidden px-6 md:x-12 lg:px-24 xl:px-32">
+        <main className="relative overflow-hidden">
           {children}
         </main>
         <Footer/>
