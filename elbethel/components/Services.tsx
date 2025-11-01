@@ -1,4 +1,4 @@
-import { services } from '@/constants/services'
+import { services } from '@/assets/services'
 import Title from './Title'
 import Link from 'next/link'
 import CTAButton from './CTAButton'
@@ -7,7 +7,7 @@ import CTAButton from './CTAButton'
 const Services = () => {
 
   return (
-    <section className='mt-40'>
+    <section className='px-6 md:px-12 lg:px-24 xl:px-32 mt-40'>
       
       <Title 
         normalTitle='Our'

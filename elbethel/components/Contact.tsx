@@ -2,11 +2,11 @@ import React from 'react'
 import Title from './Title'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faMailBulk, faPhone } from '@fortawesome/free-solid-svg-icons'
-import { contacts } from '@/constants/contact'
+import { contacts } from '@/assets/contact'
 
 const Contact = () => {
   return (
-    <section className='mt-40'>
+    <section className='px-6 md:px-12 lg:px-24 xl:px-32 mt-40'>
 
       <Title
         normalTitle='Get In '

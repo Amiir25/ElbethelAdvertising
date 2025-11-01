@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ourPortfolio } from "@/constants/ourPortfolio";
+import { ourPortfolio } from "@/assets/portfolio";
 import Title from "./Title";
 import Link from "next/link";
 import CTAButton from "./CTAButton";
@@ -23,7 +23,7 @@ const Portfolio = () => {
   const portfolio = ourPortfolio[index];
 
   return (
-    <section className="mt-40 overflow-hidden">
+    <section className="px-6 md:px-12 lg:px-24 xl:px-32 mt-40 overflow-hidden">
 
       <Title 
         normalTitle="Our"

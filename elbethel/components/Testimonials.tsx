@@ -1,4 +1,4 @@
-import { testimonials } from "@/constants/testimonials";
+import { testimonials } from "@/assets/testimonials";
 import Title from "./Title";
 
 const Testimonials = () => {
