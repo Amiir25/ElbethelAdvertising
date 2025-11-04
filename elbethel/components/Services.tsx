@@ -32,7 +32,7 @@ const Services = () => {
               </div>
               
               {/* Bg color */}
-              <div className='absolute -bottom-full w-full h-full bg-gradient-to-t from-white to-transparent
+              <div className='absolute -bottom-full w-full h-full bg-linear-to-t from-white to-transparent
               group-hover:bottom-0 transition-all duration-300 ' />
             </div>
           ))
