@@ -25,7 +25,7 @@ const Products = () => {
         <motion.ul
           className="flex gap-6 w-max"
           animate={{
-            x: ["0%", "-50%"], // slide half the width, since we duplicated the list
+            x: ["0%", "-20%"], // slide half the width, since we duplicated the list
           }}
           transition={{
             repeat: Infinity,
@@ -35,15 +35,17 @@ const Products = () => {
           }}
         >
           {
-            loopedProducts.map((product) => (
-              <li key={`${product.id}-${Math.random()}`}
-                className="shrink-0 w-80 md:w-120 shadow-xl p-2">
+            loopedProducts.map((product, i) => (
+              <li key={i}
+                className="shrink-0 mx-8 h-full
+                flex flex-col items-center justify-center">
                 
-                <img src={ product.image.src } alt="" />
+                <img src={ product.image.src } alt={`${ product.name } product image`}
+                className="w-60 md:w-80" />
                 
-                <div className="mt-2">
-                  <h1 className="text-lg font-semibold">{ product.name }</h1>
-                  <p className="text-gray-700">{ product.description }</p>
+                <div className="mt-2 w-full">
+                  <h1 className="text-xl md:text-2xl font-semibold">{ product.name }</h1>
+                  {/* <p className="text-gray-700">{ product.description }</p> */}
                 </div>
               </li>
             ))

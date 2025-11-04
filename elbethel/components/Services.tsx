@@ -18,7 +18,8 @@ const Services = () => {
       <div className='flex flex-col md:flex-row flex-wrap items-center justify-center md:justify-between gap-10'>
         {
           services.map((service, i) => (
-            <div key={i} className='relative mt-10 flex flex-col items-center h-50 md:h-60 overflow-hidden group'>
+            <div key={i} className='relative mt-10 flex flex-col items-center
+            h-50 md:h-60 overflow-hidden group'>
               
               <div className='w-80 md:w-120 h-30 md:h-40 group-hover:h-60 transition-all duration-300'>
                 <img src={ service.image.src } alt={service.title } className='rounded-xl w-full h-full object-cover' />
