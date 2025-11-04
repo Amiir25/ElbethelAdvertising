@@ -24,7 +24,7 @@ const Navbar = () => {
   })
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-20 px-6 md:x-12 lg:px-24 xl:px-32 py-2
+    <nav className={`fixed top-0 left-0 right-0 z-40 px-6 md:x-12 lg:px-24 xl:px-32 py-2
     flex items-center justify-between transition-all duration-200
     ${ isScrolled && 'bg-gray-900/95 border-b border-[#ff4000]' }`}>
       {/* Logo */}
