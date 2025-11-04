@@ -67,7 +67,7 @@ const page = () => {
                     onClick={ handleMoreImg }
                     className='mt-2 md:mt-8 font-semibold bg-secondary text-white rounded
                     px-2 py-1 mx-auto cursor-pointer'>
-                        More Images
+                        See More Images
                     </button>
                 }
             </div>
