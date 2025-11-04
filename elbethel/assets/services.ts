@@ -10,7 +10,7 @@ export const services = [
         id: 1,
         image: lightBox,
         title: 'Light Boxes & LED Signage',
-        description: 'Design and installation of light0boxes, LED lighting letters and neon-style displays that bring your brand to life.',
+        description: 'Design and installation of light0boxes and LED lighting letters that bring your brand to life.',
     },
     {
         id: 2,
@@ -28,7 +28,7 @@ export const services = [
         id: 4,
         image: vehicleAdvert,
         title: 'Vehicle Branding',
-        description: 'Transform company cars into mobile advertisements with long-lasting vehicle wraps and decals.',
+        description: 'Transform company cars into mobile advertisements with long-lasting vehicle wraps.',
     },
     {
         id: 5,
@@ -40,7 +40,7 @@ export const services = [
         id: 6,
         image: TShirt,
         title: 'Promotional Printing',
-        description: 'Custom printing on T-shirts, pens, medals, mugs, and key holders for marketing campaigns or events.',
+        description: 'Custom printing on T-shirts, pens and various materials for marketing campaigns or events.',
     },
     // {
     //     id: 7,

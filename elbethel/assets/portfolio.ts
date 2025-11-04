@@ -14,7 +14,7 @@ import noahRealestate from '../public/portfolio/noah-realestate.webp';
 import sunshine from '../public/portfolio/sunshine.webp';
 import zimbabweEmbassy from '../public/portfolio/zimbabwe-embassy.webp';
 
-export const ourPortfolio = [
+export const ourWork = [
     { id: 1, image: abyssinia },
     { id: 2, image: addisAbaba },
     { id: 3, image: awashInsurance },
