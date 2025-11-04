@@ -1,12 +1,12 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
 import Services from "@/components/Services";
-// import Testimonials from "@/components/Testimonials";
+import OurWork from "@/components/OurWork";
 import WhyChoose from "@/components/WhyChoose";
 import Products from "@/components/Products";
-import Portfolio from "@/components/Portfolio";
 import CallToAction from "@/components/CallToAction";
+// import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Services/>
-      <Portfolio/>
+      <OurWork/>
       <WhyChoose/>
       <Products/>
       <CallToAction/>
