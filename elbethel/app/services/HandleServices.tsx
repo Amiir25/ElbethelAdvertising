@@ -72,16 +72,16 @@ const HandleServices: React.FC<ServiceProps> = ({ title, description, images }) 
             <div
             ref={scrollRef}
             className="flex gap-4 overflow-x-scroll overflow-y-hidden scrollbar-hide scroll-smooth px-2">
-            {
-              images.map((image, i) => (
-                  <button key={i}
-                  className="shrink-0 border-none rounded-2xl w-[320px] md:w-[480px]  h-[240] md:h-[320px]
-                  overflow-hidden transition-transform duration-300 hover:scale-102">
-                    <img src={ image.image } alt={`${ title } Image`}
-                    className="rounded-2xl object-cover w-full h-full" />
-                  </button>
-              ))
-            }
+              {
+                images.map((image, i) => (
+                    <div key={i}
+                    className="shrink-0 border-none rounded-2xl w-[320px] md:w-[480px]  h-[180] md:h-[280px]
+                    overflow-hidden transition-transform duration-300 hover:scale-102">
+                      <img src={ image.image } alt={`${ title } Image`}
+                      className="rounded-2xl object-cover w-full h-full" />
+                    </div>
+                ))
+              }
             </div>
 
             {/* Right Shadow */}
