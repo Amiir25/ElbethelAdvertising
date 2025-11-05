@@ -33,12 +33,23 @@ const AboutPage = () => {
                 </div>
             </div>
 
-             {/* Image - 1 */}
+             {/* Image - 1 & 2 */}
             <img src={ images.image1.src } alt="Image showing work at Elbethel Advertising"
             className='mt-20 w-80 md:w-[800px] mx-auto' />
+            <img src={ images.image2.src } alt="Image showing work at Elbethel Advertising"
+            className='mt-2 w-80 md:w-[800px] mx-auto' />
 
             {/* Our Story */}
             <About/>
+
+            {/* Image 3 & 4 */}
+            <div className='px-6 md:px-12 lg:px-24 xl:px-32 mt-20
+             flex items-center justify-center gap-4'>
+                <img src={ images.image3.src } alt="Image showing work at Elbethel Advertising"
+                className='w-40 md:w-80 lg:w-96' />
+                <img src={ images.image4.src } alt="Image showing work at Elbethel Advertising"
+                className='w-40 md:w-80 lg:w-96' />
+            </div>
 
             {/* Mission, Vision, and Values */}
             <div className='px-6 md:px-12 lg:px-24 xl:px-32 mt-40'>
@@ -60,8 +71,8 @@ const AboutPage = () => {
                 </div>
             </div>
 
-            {/* Image - 2 */}
-            <img src={ images.image2.src } alt="Image showing work at Elbethel Advertising"
+            {/* Image - 5 */}
+            <img src={ images.image5.src } alt="Image showing work at Elbethel Advertising"
             className='mt-20 w-80 md:w-[800px] mx-auto' />
 
             {/* Clients */}
@@ -97,12 +108,23 @@ const AboutPage = () => {
                 </div>
             </div>
 
+            {/* Image 6 & 7 */}
+            <div className='px-6 md:px-12 lg:px-24 xl:px-32 mt-20
+             flex items-center justify-center gap-4'>
+                <img src={ images.image6.src } alt="Image showing work at Elbethel Advertising"
+                className='w-40 md:w-80 lg:w-96' />
+                <img src={ images.image7.src } alt="Image showing work at Elbethel Advertising"
+                className='w-40 md:w-80 lg:w-96' />
+            </div>
+
             {/* Why Choose Elbethel */}
             <WhyChoose/>
 
-            {/* Image - 3 */}
-            <img src={ images.image3.src } alt="Image showing work at Elbethel Advertising"
+            {/* Image 8 & 9 */}
+            <img src={ images.image8.src } alt="Image showing work at Elbethel Advertising"
             className='mt-20 w-80 md:w-[800px] mx-auto' />
+            <img src={ images.image9.src } alt="Image showing work at Elbethel Advertising"
+            className='mt-2 w-80 md:w-[800px] mx-auto' />
 
             {/* Call to action */}
             <div className='pb-18'>
