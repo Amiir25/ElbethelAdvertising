@@ -2,6 +2,7 @@ import Title from '@/components/Title'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { contacts, socialMedia } from './assets/assets'
+import Link from 'next/link'
 
 const Contact = () => {
   return (
@@ -57,7 +58,7 @@ const Contact = () => {
                 <div className='mt-10 flex items-center justify-center gap-6 md:gap-10'>
                     {
                         socialMedia.map(media => (
-                            <a
+                            <Link
                             href={ media.link } target='_blank'
                             key={media.id}
                             className='text-center cursor-pointer'>
@@ -66,7 +67,7 @@ const Contact = () => {
                                 <p className='text-xs md:text-sm text-gray-700'>
                                     { media.name }
                                 </p>
-                            </a>
+                            </Link>
                         ))
                     }
                 </div>
