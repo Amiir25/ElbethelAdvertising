@@ -7,7 +7,7 @@ const Hero = () => {
         
         <div className='px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center text-center
         w-full h-full bg-gray-900/80 text-white'>
-          <h1 className='text-3xl md:text-5xl lg:text-7xl font-bold md:mt-10 md:px-10'>
+          <h1 className='text-4xl md:text-5xl lg:text-8xl font-bold md:mt-10 md:px-10'>
             Build Your Brand With Quality Printing
           </h1>
           
