@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ourWork } from "@/assets/portfolio";
+import { ourWork } from "@/assets/ourWork";
 import Title from "./Title";
 import Link from "next/link";
 import CTAButton from "./CTAButton";
