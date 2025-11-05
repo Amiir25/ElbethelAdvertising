@@ -49,7 +49,7 @@ const page = () => {
                     normalTitle='Explore Our '
                     underlineTitle='Work' />
                 
-                <div className='mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2'>
+                <div className='mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 md:gap-2'>
                     {
                         visibleImages.map((image, i) => (
                             <div key={i} className='max-w-40 md:max-w-60 lg:max-w-80'>
