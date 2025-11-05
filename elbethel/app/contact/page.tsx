@@ -5,7 +5,7 @@ import { contacts, socialMedia } from './assets/assets'
 
 const Contact = () => {
   return (
-    <section className='px-6 md:px-12 lg:px-24 xl:px-32 py-40 
+    <section className='px-6 md:px-12 lg:px-24 xl:px-32 pt-40 
     bg-linear-to-b from-gray-300 to-transparent'>
         <Title 
             normalTitle='Get In '
