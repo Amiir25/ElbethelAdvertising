@@ -1,11 +1,18 @@
 // Images
 import bgImage from './bg-about.webp'
-import image1 from './about-image-1.webp'
-import image2 from './about-image-2.webp'
-import image3 from './about-image-3.webp'
+import image1 from './images/image-1.webp'
+import image2 from './images/image-2.webp'
+import image3 from './images/image-3.webp'
+import image4 from './images/image-4.webp'
+import image5 from './images/image-5.webp'
+import image6 from './images/image-6.webp'
+import image7 from './images/image-7.webp'
+import image8 from './images/image-8.webp'
+import image9 from './images/image-9.webp'
 
 export const images = {
-    bgImage, image1, image2, image3
+    bgImage, image1, image2, image3, image4, image5,
+    image6, image7, image8, image9,
 };
 
 // Mission, Vision, and Values
@@ -27,17 +34,17 @@ export const missions = [
 ];
 
 // Clients
-import abyssiniaBankLogo from './abyssinia-logo.webp';
-import boraLogo from './bora-logo.webp';
-import burgerizaLogo from './burgerizza-logo.webp';
-import castleLogo from './castle-logo.webp';
-import chickenHutLogo from './chicken-hut-logo.webp';
-import madoHotelLogo from './mado-hotel-logo.webp';
-import kadiscoLogo from './kadisco-logo.webp';
-import mamokachaLogo from './mamokacha.webp';
-import noahLogo from './noah-logo.webp';
-import siketBankLogo from './siket-bank-logo.webp';
-import sunriseLogo from './sunrise-logo.webp';
+import abyssiniaBankLogo from './client-logo/abyssinia-logo.webp';
+import boraLogo from './client-logo/bora-logo.webp';
+import burgerizaLogo from './client-logo/burgerizza-logo.webp';
+import castleLogo from './client-logo/castle-logo.webp';
+import chickenHutLogo from './client-logo/chicken-hut-logo.webp';
+import madoHotelLogo from './client-logo/mado-hotel-logo.webp';
+import kadiscoLogo from './client-logo/kadisco-logo.webp';
+import mamokachaLogo from './client-logo/mamokacha.webp';
+import noahLogo from './client-logo/noah-logo.webp';
+import siketBankLogo from './client-logo/siket-bank-logo.webp';
+import sunriseLogo from './client-logo/sunrise-logo.webp';
 
 export const clients = [
     { image: abyssiniaBankLogo, name: 'Bank Of Abyssinia' },
