@@ -35,9 +35,9 @@ const AboutPage = () => {
 
              {/* Image - 1 & 2 */}
             <img src={ images.image1.src } alt="Image showing work at Elbethel Advertising"
-            className='mt-20 w-80 md:w-[800px] mx-auto' />
+            className='mt-20 w-80 md:w-[800px] mx-auto rounded-lg' />
             <img src={ images.image2.src } alt="Image showing work at Elbethel Advertising"
-            className='mt-2 w-80 md:w-[800px] mx-auto' />
+            className='mt-2 w-80 md:w-[800px] mx-auto rounded-lg' />
 
             {/* Our Story */}
             <About/>
@@ -46,9 +46,9 @@ const AboutPage = () => {
             <div className='px-6 md:px-12 lg:px-24 xl:px-32 mt-20
              flex items-center justify-center gap-4'>
                 <img src={ images.image3.src } alt="Image showing work at Elbethel Advertising"
-                className='w-40 md:w-80 lg:w-96' />
+                className='w-40 md:w-80 lg:w-96 rounded-lg' />
                 <img src={ images.image4.src } alt="Image showing work at Elbethel Advertising"
-                className='w-40 md:w-80 lg:w-96' />
+                className='w-40 md:w-80 lg:w-96 rounded-lg' />
             </div>
 
             {/* Mission, Vision, and Values */}
@@ -73,7 +73,7 @@ const AboutPage = () => {
 
             {/* Image - 5 */}
             <img src={ images.image5.src } alt="Image showing work at Elbethel Advertising"
-            className='mt-20 w-80 md:w-[800px] mx-auto' />
+            className='mt-20 w-80 md:w-[800px] mx-auto rounded-lg' />
 
             {/* Clients */}
             <div className='mt-40 overflow-hidden'>
@@ -97,7 +97,7 @@ const AboutPage = () => {
                                 <div key={i} className='my-8'>
                                     <div className='w-30'>
                                         <img src={ client.image.src } alt={`${ client.name } Logo Image`}
-                                        className='w-full h-full object-cover' />
+                                        className='w-full h-full object-cover rounded-lg' />
                                     </div>
                                     {/* <h3>{ client.name }</h3> */}
                                 </div>
@@ -112,9 +112,9 @@ const AboutPage = () => {
             <div className='px-6 md:px-12 lg:px-24 xl:px-32 mt-20
              flex items-center justify-center gap-4'>
                 <img src={ images.image6.src } alt="Image showing work at Elbethel Advertising"
-                className='w-40 md:w-80 lg:w-96' />
+                className='w-40 md:w-80 lg:w-96 rounded-lg' />
                 <img src={ images.image7.src } alt="Image showing work at Elbethel Advertising"
-                className='w-40 md:w-80 lg:w-96' />
+                className='w-40 md:w-80 lg:w-96 rounded-lg' />
             </div>
 
             {/* Why Choose Elbethel */}
@@ -122,9 +122,9 @@ const AboutPage = () => {
 
             {/* Image 8 & 9 */}
             <img src={ images.image8.src } alt="Image showing work at Elbethel Advertising"
-            className='mt-20 w-80 md:w-[800px] mx-auto' />
+            className='mt-20 w-80 md:w-[800px] mx-auto rounded-lg' />
             <img src={ images.image9.src } alt="Image showing work at Elbethel Advertising"
-            className='mt-2 w-80 md:w-[800px] mx-auto' />
+            className='mt-2 w-80 md:w-[800px] mx-auto rounded-lg' />
 
             {/* Call to action */}
             <div className='pb-18'>
