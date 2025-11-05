@@ -57,7 +57,7 @@ const OurWork = () => {
               key={p.id}
               onClick={() => setIndex(i)}
               aria-label={`Show testimonial ${i + 1}`}
-              className={`w-2 h-2 rounded-full transition-all
+              className={`w-1 h-1 md:w-2 md:h-2 rounded-full transition-all
                 ${ i === index ? "bg-primary " : "bg-[#ff4000]/30" }`} />
           ))
         }
