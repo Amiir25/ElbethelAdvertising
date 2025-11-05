@@ -58,7 +58,7 @@ const Contact = () => {
                     {
                         socialMedia.map(media => (
                             <a
-                            href=''
+                            href={ media.link } target='_blank'
                             key={media.id}
                             className='text-center cursor-pointer'>
                                 <FontAwesomeIcon icon={ media.icon }

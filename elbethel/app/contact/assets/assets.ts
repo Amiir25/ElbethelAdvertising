@@ -32,11 +32,32 @@ interface socialMediaList {
     id: number;
     icon: IconDefinition;
     name: string;
+    link: string;
 }
 
 export const socialMedia: socialMediaList[] = [
-    { id: 0, icon: faLinkedin, name: 'LinkedIn' },
-    { id: 1, icon: faFacebook, name: 'facebook' },
-    { id: 2, icon: faTiktok, name: 'tiktok' },
-    { id: 3, icon: faInstagram, name: 'Instagram' },
+    {
+        id: 0,
+        icon: faLinkedin,
+        name: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/elbethel-advert-a4b6081ab',
+    },
+    {
+        id: 1,
+        icon: faFacebook,
+        name: 'facebook',
+        link: 'https://www.facebook.com/share/1GhejT6oYS/',
+    },
+    {
+        id: 2,
+        icon: faTiktok,
+        name: 'tiktok',
+        link: 'https://www.tiktok.com/@elbetheladvert?_r=1&_t=ZM-9192x9dWAJv',
+    },
+    {
+        id: 3,
+        icon: faInstagram,
+        name: 'Instagram',
+        link: 'https://www.instagram.com/elbetheladvert?igsh=MXd2eHBoeXZmenZjdg==',
+    },
 ];
