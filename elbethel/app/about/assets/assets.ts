@@ -45,6 +45,12 @@ import mamokachaLogo from './client-logo/mamokacha.webp';
 import noahLogo from './client-logo/noah-logo.webp';
 import siketBankLogo from './client-logo/siket-bank-logo.webp';
 import sunriseLogo from './client-logo/sunrise-logo.webp';
+import etOnlineCollage from './client-logo/et-online-collage.webp';
+import kbDriving from './client-logo/kb-driving.webp';
+import mafiCityMall from './client-logo/mafi-city-mall.webp';
+import ministryOfRevenue from './client-logo/ministry-of-revenue.webp';
+import payway from './client-logo/payway.webp';
+import redFox from './client-logo/red-fox-solutions.webp';
 
 export const clients = [
     { image: abyssiniaBankLogo, name: 'Bank Of Abyssinia' },
@@ -58,4 +64,10 @@ export const clients = [
     { image: noahLogo, name: 'Noah Realestate' },
     { image: siketBankLogo, name: 'Siket bank' },
     { image: sunriseLogo, name: 'Sunrise' },
+    { image: etOnlineCollage, name: 'ET Online Collage' },
+    { image: kbDriving, name: 'KB Drivers Training Center' },
+    { image: mafiCityMall, name: 'Mafi City Mall' },
+    { image: ministryOfRevenue, name: 'Ministry of Revenue' },
+    { image: payway, name: 'PayWay' },
+    { image: redFox, name: 'Red Fox Solutions Group' },
 ];
