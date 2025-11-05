@@ -32,7 +32,7 @@ const Footer = () => {
         <div className='flex gap-6 text-xl md:text-2xl mx-auto'>
           {
             socialMedia.map((media, i) => (
-              <Link key={i} href={'/'}>
+              <Link key={i} href={ media.link } target='_blank' >
                 <FontAwesomeIcon icon={ media.icon } />
               </Link>
             ))
