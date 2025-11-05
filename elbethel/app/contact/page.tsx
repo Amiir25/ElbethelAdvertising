@@ -14,11 +14,19 @@ const Contact = () => {
         <div className='mt-20'>
             {/* Location */}
             <div className='flex items-center justify-center gap-4 md:gap-10'>
-                <FontAwesomeIcon icon={ faLocationDot }
-                className='text-2xl md:text-3xl p-2 md:p-4 bg-[#ff4000]/60 text-white rounded-xl' />
-                <p className='md:text-2xl md:max-w-[420px]'>
-                    Addis Ababa, Bole around Adey Ababa International Stadium
+                
+                <div className='p-2 md:p-4 bg-[#ff4000]/60 rounded text-center'>
+                    <h1 className='font-bold mb-2'>Addis Ababa</h1>
+                    <FontAwesomeIcon icon={ faLocationDot }
+                    className='text-2xl md:text-4xl p-2 text-white animate-bounce' />
+                </div>
+                
+                <p className='text-sm md:text-xl leading-4 md:leading-6'>
+                    <span className='font-extrabold'>1.</span> Bole medhanialem, around Adey Ababa International Stadium
+                    <br /><br />
+                    <span className='font-extrabold'>2.</span> Summit, Figa mebrat
                 </p>
+
             </div>
 
             {/* Phone & Email */}
