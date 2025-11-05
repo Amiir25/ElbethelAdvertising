@@ -31,10 +31,12 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, onClose }) => {
                 <p className='mt-4 md:text-lg tracking-wider text-justify'>{ product.description }</p>
 
                 {/* Order Now buttin */}
-                <button className='w-full mt-10 py-4 text-2xl md:text-4xl font-semibold tracking-widest
+                <a 
+                href='tel:+251911107495'
+                className='w-full mt-10 py-4 text-2xl md:text-4xl font-semibold tracking-widest
                 rounded bg-primary hover:opacity-90 active:opacity-100 cursor-pointer'>
                     Order Now
-                </button>
+                </a>
             </div>
         </div>
     </section>
