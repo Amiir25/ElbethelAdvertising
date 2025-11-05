@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className='mt-40 bg-linear-to-t from-[#ff4000]/50 via-transparent to-transparent
     pt-8 border-t border-gray-300'>
       
-      <div className='flex flex-col md:flex-row gap-10 md:gap-20 md:items-center md:justify-around
+      <div className='flex flex-col md:flex-row gap-14 md:gap-20 md:items-center md:justify-around
       px-6 md:px-12 lg:px-24 xl:px-32'>
         
         {/*  */}
