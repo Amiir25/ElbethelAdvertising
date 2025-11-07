@@ -53,7 +53,7 @@ const page = () => {
                     {
                         visibleImages.map((image, i) => (
                             <div key={i} className='max-w-40 md:max-w-60 lg:max-w-80'>
-                                <img src={ image.src } alt='Elbethel previous work'
+                                <img src={ image.src } alt='Elbethel previous work' loading='lazy'
                                 className='w-full h-full object-cover' />
                             </div>
                         ))
