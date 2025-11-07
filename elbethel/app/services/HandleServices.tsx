@@ -77,7 +77,7 @@ const HandleServices: React.FC<ServiceProps> = ({ title, description, images }) 
                     <div key={i}
                     className="shrink-0 border-none rounded-2xl w-[320px] md:w-[480px]  h-[180] md:h-[280px]
                     overflow-hidden transition-transform duration-300 hover:scale-102">
-                      <img src={ image.image } alt={`${ title } Image`}
+                      <img src={ image.image } alt={`${ title }`} loading="lazy"
                       className="rounded-2xl object-cover w-full h-full" />
                     </div>
                 ))
