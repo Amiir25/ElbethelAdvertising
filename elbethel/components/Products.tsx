@@ -50,7 +50,7 @@ const Products = () => {
                 className="shrink-0 mx-8 h-full
                 flex flex-col items-center justify-center">
                 
-                <img src={ product.image.src } alt={`${ product.name } product image`}
+                <img src={ product.image.src } alt={ product.name } loading="lazy"
                 className="w-60 md:w-80" />
                 
                 <div className="mt-2 w-full text-center">

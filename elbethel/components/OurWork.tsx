@@ -7,17 +7,27 @@ import Title from "./Title";
 import Link from "next/link";
 import CTAButton from "./CTAButton";
 
-
 const OurWork = () => {
 
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState<number>(0);
+  const [width, setWidth] = useState<number>(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % ourWork.length);
     }, 3000);
 
-    return () => clearInterval(timer);
+    // Screen size
+    const handleResize = () => setWidth(window.innerWidth);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+        
+
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener('resize', handleResize);
+    }
+
   }, []);
 
   const work = ourWork[index];
@@ -39,11 +49,15 @@ const OurWork = () => {
             exit={{ opacity: 0, x: -1000 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
             className="absolute inset-0 w-full">
+
             
-            <div className="w-full h-full overflow-hidden rounded-xl">
-              <img src={ work.image.src } alt=""
-              className="w-full h-full object-cover" />
-            </div>
+              <div className="w-full h-full overflow-hidden rounded-xl">
+                <img
+                src={ width < 768 ? work.mobileImage.src : work.desktopImage.src }
+                alt={ work.alt }
+                loading="lazy"
+                className="w-full h-full object-cover" />
+              </div>
 
           </motion.div>
         </AnimatePresence>

@@ -22,7 +22,8 @@ const Services = () => {
             h-50 md:h-60 overflow-hidden group'>
               
               <div className='w-80 md:w-120 h-30 md:h-40 group-hover:h-60 transition-all duration-300'>
-                <img src={ service.image.src } alt={service.title } className='rounded-xl w-full h-full object-cover' />
+                <img src={ service.image.src } alt={service.title } loading='lazy'
+                className='rounded-xl w-full h-full object-cover' />
               </div>
               
               <div className='absolute bottom-0 w-80 md:w-120 transition-all duration-300

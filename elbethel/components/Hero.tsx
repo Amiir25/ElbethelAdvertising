@@ -1,8 +1,26 @@
-import elbethelAdvert from '../public/elbethel-advert.webp';
+"use client";
+
+import bgDesktop from '@/public/bg-desktop.webp';
+import bgMobile from '@/public/bg-mobile.webp';
+import { useEffect, useState } from 'react';
+
 
 const Hero = () => {
+
+  const [width, setWidth] = useState<number>(0);
+
+  useEffect(() => {
+      const handleResize = () => setWidth(window.innerWidth);
+
+      handleResize();
+
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+  })
+
   return (
-    <section style={{ backgroundImage: `url(${ elbethelAdvert.src })` }}
+    <section
+    style={{ backgroundImage: `url(${ (width < 768) ? bgMobile.src : bgDesktop.src  })` }}
     className='h-screen bg-cover bg-right md:bg-center bg-no-repeat bg-fixed'>
         
         <div className='px-6 md:px-12 lg:px-24 xl:px-32 flex flex-col items-center justify-center text-center

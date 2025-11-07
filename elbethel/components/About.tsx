@@ -14,8 +14,8 @@ const About = () => {
     <section className='px-6 md:px-12 lg:px-24 xl:px-32 mt-20'>
 
       <Title 
-        normalTitle='Our'
-        underlineTitle='Story' />
+        normalTitle='Who Are '
+        underlineTitle='We?' />
 
       <div className={` relative overflow-hidden ${ expand ? 'max-h-300' : 'max-h-80' }
       transition-all duration-500 `}>
