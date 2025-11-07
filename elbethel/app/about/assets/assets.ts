@@ -51,6 +51,7 @@ import mafiCityMall from './client-logo/mafi-city-mall.webp';
 import ministryOfRevenue from './client-logo/ministry-of-revenue.webp';
 import payway from './client-logo/payway.webp';
 import redFox from './client-logo/red-fox-solutions.webp';
+import velvet from './client-logo/velvet.webp';
 
 export const clients = [
     { image: abyssiniaBankLogo, name: 'Bank Of Abyssinia' },
@@ -70,4 +71,5 @@ export const clients = [
     { image: ministryOfRevenue, name: 'Ministry of Revenue' },
     { image: payway, name: 'PayWay' },
     { image: redFox, name: 'Red Fox Solutions Group' },
+    { image: velvet, name: 'Velvet' },
 ];

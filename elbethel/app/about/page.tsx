@@ -34,9 +34,15 @@ const AboutPage = () => {
             </div>
 
              {/* Image - 1 & 2 */}
-            <img src={ images.image1.src } alt="Image showing work at Elbethel Advertising"
+            <img
+            src={ images.image1.src }
+            alt="Image showing work at Elbethel Advertising"
+            loading='lazy'
             className='mt-20 w-80 md:w-[800px] mx-auto rounded-lg' />
-            <img src={ images.image2.src } alt="Image showing work at Elbethel Advertising"
+            <img
+            src={ images.image2.src }
+            alt="Image showing work at Elbethel Advertising"
+            loading='lazy'
             className='mt-2 w-80 md:w-[800px] mx-auto rounded-lg' />
 
             {/* Our Story */}
@@ -45,9 +51,15 @@ const AboutPage = () => {
             {/* Image 3 & 4 */}
             <div className='px-6 md:px-12 lg:px-24 xl:px-32 mt-20
              flex items-center justify-center gap-4'>
-                <img src={ images.image3.src } alt="Image showing work at Elbethel Advertising"
+                <img
+                src={ images.image3.src }
+                alt="Image showing work at Elbethel Advertising"
+                loading='lazy'
                 className='w-40 md:w-80 lg:w-96 rounded-lg' />
-                <img src={ images.image4.src } alt="Image showing work at Elbethel Advertising"
+                <img
+                src={ images.image4.src }
+                alt="Image showing work at Elbethel Advertising"
+                loading='lazy'
                 className='w-40 md:w-80 lg:w-96 rounded-lg' />
             </div>
 
@@ -72,7 +84,10 @@ const AboutPage = () => {
             </div>
 
             {/* Image - 5 */}
-            <img src={ images.image5.src } alt="Image showing work at Elbethel Advertising"
+            <img
+            src={ images.image5.src }
+            alt="Image showing work at Elbethel Advertising"
+            loading='lazy'
             className='mt-20 w-80 md:w-[800px] mx-auto rounded-lg' />
 
             {/* Clients */}
@@ -96,7 +111,10 @@ const AboutPage = () => {
                             loopClients.map((client, i) => (
                                 <div key={i} className='my-8'>
                                     <div className='w-30'>
-                                        <img src={ client.image.src } alt={`${ client.name } Logo Image`}
+                                        <img
+                                        src={ client.image.src } 
+                                        alt={`${ client.name } Logo`}
+                                        loading='lazy'
                                         className='w-full h-full object-cover rounded-lg' />
                                     </div>
                                     {/* <h3>{ client.name }</h3> */}
@@ -111,9 +129,15 @@ const AboutPage = () => {
             {/* Image 6 & 7 */}
             <div className='px-6 md:px-12 lg:px-24 xl:px-32 mt-20
              flex items-center justify-center gap-4'>
-                <img src={ images.image6.src } alt="Image showing work at Elbethel Advertising"
+                <img
+                src={ images.image6.src }
+                alt="Image showing work at Elbethel Advertising"
+                loading='lazy'
                 className='w-40 md:w-80 lg:w-96 rounded-lg' />
-                <img src={ images.image7.src } alt="Image showing work at Elbethel Advertising"
+                <img
+                src={ images.image7.src }
+                alt="Image showing work at Elbethel Advertising"
+                loading='lazy'
                 className='w-40 md:w-80 lg:w-96 rounded-lg' />
             </div>
 
@@ -121,9 +145,15 @@ const AboutPage = () => {
             <WhyChoose/>
 
             {/* Image 8 & 9 */}
-            <img src={ images.image8.src } alt="Image showing work at Elbethel Advertising"
+            <img
+            src={ images.image8.src }
+            alt="Image showing work at Elbethel Advertising"
+            loading='lazy'
             className='mt-20 w-80 md:w-[800px] mx-auto rounded-lg' />
-            <img src={ images.image9.src } alt="Image showing work at Elbethel Advertising"
+            <img
+            src={ images.image9.src }
+            alt="Image showing work at Elbethel Advertising"
+            loading='lazy'
             className='mt-2 w-80 md:w-[800px] mx-auto rounded-lg' />
 
             {/* Call to action */}
