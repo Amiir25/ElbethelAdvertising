@@ -1,5 +1,5 @@
-import banner from '../public/service-images/banner.webp';
-import indoorAdvert from '../public/service-images/indoor-advret.webp';
+import largeFormat from '../public/service-images/large-format.webp';
+import indoorAndOutdoor from '../public/service-images/indoor-and-outdoor.webp';
 import interiorDesign from '../public/service-images/interior-design.webp';
 import lightBox from '../public/service-images/light-box.webp';
 import TShirt from '../public/service-images/T-shirt.webp';
@@ -10,17 +10,17 @@ export const services = [
         id: 1,
         image: lightBox,
         title: 'Light Boxes & LED Signage',
-        description: 'Design and installation of light0boxes and LED lighting letters that bring your brand to life.',
+        description: 'Design and installation of light boxes and LED lighting letters that bring your brand to life.',
     },
     {
         id: 2,
-        image: indoorAdvert,
+        image: indoorAndOutdoor,
         title: 'Indoor & Outdoor Advertising',
         description: 'Professional branding for walls and storefronts — built to keep your message clear.',
     },
     {
         id: 3,
-        image: banner,
+        image: largeFormat,
         title: 'Large Format Digital Printing',
         description: 'High-resolution banners, posters, and wall graphics using premium materials and vibrant inks.',
     },
