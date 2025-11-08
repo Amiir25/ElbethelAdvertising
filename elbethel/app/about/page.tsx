@@ -45,7 +45,7 @@ const AboutPage = () => {
             loading='lazy'
             className='mt-2 w-80 md:w-[800px] mx-auto rounded-lg' />
 
-            {/* Our Story */}
+            {/* Who Are We? */}
             <About/>
 
             {/* Image 3 & 4 */}
@@ -96,6 +96,12 @@ const AboutPage = () => {
                 <Title 
                     normalTitle='Our'
                     underlineTitle='Clients'/>
+                
+                <p className='px-6 md:px-12 lg:px-24 xl:px-32 mt-8 text-xs md:text-sm lg:text-lg text-center
+                tracking-wider text-gray-700'>
+                    Over the years, Elbethel Advertising has proudly worked with some of Ethiopia’s most trusted brands, helping them shine through
+                    impactful signage and print solutions.
+                </p>
                 
                 <div className='mt-10 w-full overflow-hidden'>
                     <motion.ul className='flex items-center gap-10 md:gap-20 w-max'
