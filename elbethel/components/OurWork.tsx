@@ -55,7 +55,6 @@ const OurWork = () => {
                 <img
                 src={ width < 768 ? work.mobileImage.src : work.desktopImage.src }
                 alt={ work.alt }
-                loading="lazy"
                 className="w-full h-full object-cover" />
               </div>
 
