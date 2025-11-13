@@ -7,7 +7,7 @@ import CTAButton from './CTAButton'
 const Services = () => {
 
   return (
-    <section className='px-6 md:px-12 lg:px-24 xl:px-32 mt-40'>
+    <section id='services' className='px-6 md:px-12 lg:px-24 xl:px-32 mt-40'>
       
       <Title 
         normalTitle='Our'
