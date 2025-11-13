@@ -31,7 +31,7 @@ const Contact = () => {
             </div>
 
             {/* Phone & Email */}
-            <div className='flex items-center justify-center gap-8 md:gap-12 mt-10'>
+            <div className='flex items-start justify-center gap-8 md:gap-12 mt-10'>
                 {/*  */}
                 {
                     contacts.map(contact => (
@@ -39,10 +39,13 @@ const Contact = () => {
                         key={contact.id}
                         className='flex flex-col items-center justify-center'>
                             <FontAwesomeIcon icon={ contact.icon }
-                            className='md:text-xl' />
+                            className='text-2xl' />
                             <div>
                                 <h2 className='text-center'>{ contact.name }</h2>
-                                <p className='text-xs md:text-sm text-gray-700 tracking-wide'>{ contact.contactInfo }</p>
+                                <div className='text-xs md:text-sm text-gray-600 tracking-wide'>
+                                    <p>{ contact.contactInfo1 }</p>
+                                    <p>{ contact.contactInfo2 }</p>
+                                </div>
                             </div>
                         </div>
                     ))
