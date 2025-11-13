@@ -9,7 +9,8 @@ interface contactList {
     id: number;
     icon: IconDefinition;
     name: string;
-    contactInfo: string;
+    contactInfo1: string;
+    contactInfo2?: string;
 }
 
 export const contacts: contactList[] = [
@@ -17,13 +18,14 @@ export const contacts: contactList[] = [
         id: 0,
         icon: faPhone,
         name: 'Phone',
-        contactInfo: '+251 911 107 495',
+        contactInfo1: '+251 911 107 495',
+        contactInfo2: '+251 966 650 065',
     },
     {
         id: 1,
         icon: faEnvelope,
         name: 'Email',
-        contactInfo: 'info@elbetheladvert.com',
+        contactInfo1: 'itselbethel@gmail.com',
     },
 ]
 
