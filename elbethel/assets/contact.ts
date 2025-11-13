@@ -6,16 +6,17 @@ export const contacts = [
     {
         icon: faLocationDot,
         title: 'Address',
-        description: 'Bole Adey Ababa, Addis Abeba',
+        description1: 'Bole Medhanialem, Addis Abeba',
     },
     {
         icon: faPhone,
         title: 'Phone',
-        description: '+251 900 000 000',
+        description1: '+251 911 107 495',
+        description2: '+251 966 650 065',
     },
     {
         icon: faMailForward,
         title: 'Email',
-        description: 'info@elbethel.com',
+        description1: 'itselbethel@gmail.com',
     },
 ];
