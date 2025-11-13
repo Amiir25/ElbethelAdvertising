@@ -1,7 +1,6 @@
 import React from 'react'
 import Title from './Title'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot, faMailBulk, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { contacts } from '@/assets/contact'
 
 const Contact = () => {
@@ -24,7 +23,12 @@ const Contact = () => {
                 className='text-2xl md:text-3xl text-white bg-primary px-2 py-4 rounded-xl my-2' />
                 <div>
                   <h2 className='md:text-xl font-bold'>{ contact.title }</h2>
-                  <p className='md:text-lg text-gray-600'>{ contact.description }</p>
+                  <div className={`${ contact.description2 && 'flex items-center text-sm' }`}>
+                    <p className='md:text-lg text-gray-600'>{ contact.description1 }</p>
+                    <p className='md:text-lg text-gray-600 border-l-2 ml-2 pl-2'>
+                      { contact.description2 }
+                    </p>
+                  </div>
                 </div>
               </div>
             ))
