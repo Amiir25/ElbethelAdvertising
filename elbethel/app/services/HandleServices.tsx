@@ -57,7 +57,7 @@ const HandleServices: React.FC<ServiceProps> = ({ title, description, images }) 
               showLeft && (
               <button
               onClick={() => scroll("left")}
-              className="absolute -left-5 z-20 bg-black/80 text-white rounded-full w-10 h-20
+              className="absolute -left-5 z-20 bg-primary text-white rounded-full w-10 h-20
               flex items-center justify-center shadow-lg">
                   <ChevronLeft size={30} />
               </button>
@@ -93,7 +93,7 @@ const HandleServices: React.FC<ServiceProps> = ({ title, description, images }) 
               showRight && (
               <button
               onClick={() => scroll("right")}
-              className="absolute -right-5 z-20 bg-black/80 text-white rounded-full w-10 h-20
+              className="absolute -right-5 z-20 bg-primary text-white rounded-full w-10 h-20
               flex items-center justify-center shadow-lg">
                   <ChevronRight size={30} />
               </button>
