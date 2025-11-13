@@ -18,6 +18,11 @@ const Hero = () => {
       return () => window.removeEventListener('resize', handleResize);
   })
 
+  // Scroll to section
+  const scrollToSection = (sectionId: string) => {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <section
     style={{ backgroundImage: `url(${ (width < 768) ? bgMobile.src : bgDesktop.src  })` }}
@@ -33,7 +38,9 @@ const Hero = () => {
             We design and print everything, fast and affordable.
           </p>
           
-          <button className='mt-10 px-10 py-4 text-white text-lg font-semibold bg-primary rounded-xl tracking-wider
+          <button 
+          onClick={() => scrollToSection('services')}
+          className='mt-10 px-10 py-4 text-white text-lg font-semibold bg-primary rounded-xl tracking-wider
           hover:opacity-80 active:opacity-100 cursor-pointer '>
             View Our Services
           </button>
