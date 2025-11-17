@@ -3,6 +3,25 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { contacts, socialMedia } from './assets/assets'
 import Link from 'next/link'
+import type { Metadata } from "next";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Contact | Elbethel Advertising",
+  description: "Get in touch with Elbethel Advertising for LED signage, printing, and branding services in Addis Ababa, Ethiopia. Request a quote or consultation today.",
+  keywords: [
+    "contact Elbethel Advertising",
+    "signage company contact Ethiopia",
+    "printing services contact Addis Ababa",
+    "advertising company near me Ethiopia",
+    "get a quote printing Addis Ababa",
+    "LED signage inquiry Ethiopia",
+    "vehicle branding inquiry Addis Ababa",
+    "contact for promotional printing Ethiopia",
+    "customer support Elbethel Advertising"
+  ],
+};
+
 
 const Contact = () => {
   return (
