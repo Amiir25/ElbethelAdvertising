@@ -7,11 +7,10 @@
 ## Features
 
 - **Responsive Design**: Fully responsive layout built with **Tailwind CSS**, optimized for mobile, tablet, and desktop screens.  
-- **Next.js & TypeScript**: Built with **Next.js 13** (App Router) and TypeScript for type safety and performance.  
-- **High-Quality Visuals**: Optimized images using `next/image` for fast loading and crisp display.  
-- **Dynamic Hero & Backgrounds**: Uses responsive images and `<picture>` elements for adaptive hero and background sections.  
+- **Next.js & TypeScript**: Built with **Next.js** and **TypeScript** for type safety and performance.  
+- **Dynamic Hero & Backgrounds**: Uses responsive images for adaptive hero and background sections.  
 - **Interactive UI Components**: Buttons, CTAs, and image galleries implemented with modern React patterns and Tailwind styling.  
-- **Local SEO Optimization**: Metadata, Open Graph, Twitter cards, and JSON-LD structured data implemented for better visibility in search engines.  
+- **Local SEO Optimization**: Metadata, Open Graph, and Twitter cards are implemented for better visibility in search engines.  
 - **Lazy Loading**: Images and sections are lazy-loaded where appropriate for improved performance.  
 - **Contact Integration**: Click-to-call phone number, Google Maps embedding, and social media links.  
 - **Products & Services Showcase**: Dynamic rendering of products and services with responsive images and detailed descriptions.  
@@ -22,12 +21,10 @@
 
 ## Technologies Used
 
-- **Next.js 13** (App Router)  
+- **Next.js 15**
 - **TypeScript**  
 - **Tailwind CSS**  
 - **React**  
-- **Next/Image** for optimized images  
-- **JSON-LD Schema** for local SEO  
 - **Favicon & Metadata Management** for SEO and branding  
 
 ---
