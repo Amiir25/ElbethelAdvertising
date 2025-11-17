@@ -6,6 +6,25 @@ import { images } from './assets/assets'
 import Title from '@/components/Title'
 import { useState } from 'react';
 import CallToAction from '@/components/CallToAction';
+import type { Metadata } from "next";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Projects | Elbethel Advertising",
+  description: "Explore Elbethel Advertising’s portfolio of LED signage, printing, branding, and advertising projects in Addis Ababa, Ethiopia.",
+  keywords: [
+    "signage portfolio Addis Ababa",
+    "printing project examples Ethiopia",
+    "branding portfolio Ethiopia",
+    "LED signage completed projects",
+    "vehicle branding samples Addis Ababa",
+    "large format printing portfolio",
+    "outdoor advertising examples Ethiopia",
+    "interior branding completed work",
+    "promotional printing examples",
+    "Elbethel Advertising projects"
+  ]
+}
 
 const page = () => {
 
