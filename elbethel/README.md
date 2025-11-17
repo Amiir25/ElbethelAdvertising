@@ -1,0 +1,43 @@
+# Elbethel Advertising Website
+
+**Elbethel Advertising** is a creative advertising and printing company based in Addis Ababa, Ethiopia. This website showcases their services, portfolio, products, and contact information, aiming to provide a modern, engaging online presence for the company.
+
+---
+
+## Features
+
+- **Responsive Design**: Fully responsive layout built with **Tailwind CSS**, optimized for mobile, tablet, and desktop screens.  
+- **Next.js & TypeScript**: Built with **Next.js 13** (App Router) and TypeScript for type safety and performance.  
+- **High-Quality Visuals**: Optimized images using `next/image` for fast loading and crisp display.  
+- **Dynamic Hero & Backgrounds**: Uses responsive images and `<picture>` elements for adaptive hero and background sections.  
+- **Interactive UI Components**: Buttons, CTAs, and image galleries implemented with modern React patterns and Tailwind styling.  
+- **Local SEO Optimization**: Metadata, Open Graph, Twitter cards, and JSON-LD structured data implemented for better visibility in search engines.  
+- **Lazy Loading**: Images and sections are lazy-loaded where appropriate for improved performance.  
+- **Contact Integration**: Click-to-call phone number, Google Maps embedding, and social media links.  
+- **Products & Services Showcase**: Dynamic rendering of products and services with responsive images and detailed descriptions.  
+- **Portfolio Section**: Highlights top projects and client work to build trust and credibility.  
+- **Global CTA Component**: Bold, consistent call-to-action section across all pages directing users to contact the company.  
+
+---
+
+## Technologies Used
+
+- **Next.js 13** (App Router)  
+- **TypeScript**  
+- **Tailwind CSS**  
+- **React**  
+- **Next/Image** for optimized images  
+- **JSON-LD Schema** for local SEO  
+- **Favicon & Metadata Management** for SEO and branding  
+
+---
+
+## License
+
+This project is for internal use by **Elbethel Advertising**. All assets, logos, and content belong to Elbethel Advertising and should not be redistributed without permission.
+
+---
+
+## Author
+
+**Intern Developer** – Built during a digital marketing internship at Elbethel Advertising.
