@@ -6,6 +6,26 @@ import { clients, images, missions } from './assets/assets';
 import { motion } from 'framer-motion';
 import WhyChoose from '@/components/WhyChoose';
 import CallToAction from '@/components/CallToAction';
+import type { Metadata } from 'next';
+
+// Metadata
+export const metadata: Metadata = {  
+    title: "About | Elbethel Advertising",
+    description: "Learn about Elbethel Advertising, a creative printing and signage company in Addis Ababa, Ethiopia.",
+    keywords: [
+        "Elbethel Advertising",
+        "advertising company Addis Ababa",
+        "printing company Ethiopia",
+        "signage company Ethiopia",
+        "branding agency Addis Ababa",
+        "professional printing services Ethiopia",
+        "creative advertising Ethiopia",
+        "LED signage specialists Addis Ababa",
+        "digital printing experts Ethiopia",
+        "brand identity services Addis Ababa",
+        "company profile Elbethel Advertising"
+    ],
+}
 
 const AboutPage = () => {
 
