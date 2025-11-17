@@ -2,6 +2,26 @@ import { serviceDetail } from "./assets/assets";
 import HandleServices from "./HandleServices";
 import bgServices from './assets/bg-services.webp';
 import CallToAction from "@/components/CallToAction";
+import type { Metadata } from "next";
+
+// Metadata
+export const metadata: Metadata = {
+  title: "Services | Elbethel Advertising",
+  description: "Discover Elbethel Advertising’s services: LED signage, digital printing, vehicle branding, and more in Addis Ababa.",
+  keywords: [
+    "printing and signage services Addis Ababa",
+    "advertising services Ethiopia",
+    "LED signage services Ethiopia",
+    "light box installation Addis Ababa",
+    "large format printing Ethiopia",
+    "vehicle branding services Addis Ababa",
+    "indoor and outdoor advertising Ethiopia",
+    "promotional item printing Ethiopia",
+    "interior branding services Addis Ababa",
+    "professional advertising solutions Ethiopia",
+    "business branding services Ethiopia"
+  ],
+};
 
 const Services = () => {
 
