@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "../public/logo-original.jpg",
+        url: "/public/logo-original.jpg",
         width: 1200,
         height: 630,
         alt: "Elbethel Advertising - LED signage and printing company in Addis Ababa",
@@ -98,7 +98,7 @@ export const metadata: Metadata = {
     title: "Elbethel Advertising | LED Signage & Printing in Addis Ababa",
     description:
       "Creative advertising and printing company based in Addis Ababa, Ethiopia.",
-    images: ["../public/logo-original.jpg"],
+    images: ["/public/logo-original.jpg"],
   },
   icons: {
     icon: [
